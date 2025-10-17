@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    column-gap: 100px;
+}
+
+.navigation a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+    text-decoration: none;
+}
+ 
+.navigation a:hover {
+    color: #fa4a0c;
+}
+
+
+.promo {
+    padding-top: 75px;
+    padding-bottom: 175px;
+    background-image: url(./../images/background/Rectangle\ 50.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.promo::before {
+    content: '';
+    background-color: rgba(23, 16, 16, 0.55);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.promo-content-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 30px;
+    align-items: center;
+}
+
+.promo h1{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 36px;
+    color: #f6f6f6;
+}
+
+.promo h2 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.promo p {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #f6f6f6;
+}
+
+.button-wrapper {
+    display: flex;
+    column-gap: 50px;
+}
+
+.button {
+    padding: 17px 47px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    line-height: 36px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.button-white {
+    background-color: transparent;
+    border: 3px solid #fff;
+    
+}
+
+.button-orange {
+    background-color: #FA4A0C;
+    border: 3px solid #fa4a0c;
+}
