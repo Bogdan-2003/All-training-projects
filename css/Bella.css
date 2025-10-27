@@ -53,6 +53,8 @@ img {
 }
 
 
+
+
 .promo {
     padding-top: 75px;
     padding-bottom: 175px;
@@ -131,4 +133,49 @@ img {
 .button-orange {
     background-color: #FA4A0C;
     border: 3px solid #fa4a0c;
+}
+
+
+.images {
+    padding-bottom: 100px;
+}
+
+.imeges-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: -135px;
+    
+}
+
+.food-wrap {
+    z-index: 1;
+}
+
+
+.delicious-wrap {
+    margin-left: -50px;
+    padding-top: 54px;
+    position: relative;
+}
+
+.food-wrap img {
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.3));
+    
+}
+
+
+.title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 5px solid #E4E4E4;
+    border-bottom: 5px solid #E4E4E4;;
+}
+
+.title h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 0.1em;
 }
